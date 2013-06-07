@@ -4,13 +4,6 @@
 /*
 /*****************************************************************************/
 
-/*
-
-  00af81 - main
-  009870 - Darken
-
-*/
-
 /* Global Reset */
 * {
   margin: 0;
@@ -26,15 +19,13 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #00af81; text-decoration: none; }
+a:hover   { color: #007a5a; }
+a:visited { color: #00af81; }
+a:visited:hover { color: #007a5a; }
 
 table {
   font-size: inherit;
@@ -67,12 +58,17 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.wrapper {
+  max-width: 660px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 .site .header a {
@@ -86,7 +82,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #00af81;
+  /*color: #00af81;*/
 }
 
 .site .header h1.title a:hover {
@@ -119,18 +115,36 @@ ul.posts span {
   margin-right: 3em;
 }
 
-.site .footer .contact a {
-  color: #8085C1;
-}
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+.header {
+  background: #252525;
+}
+.header .wrapper {
+  overflow: hidden;
+}
+.header h1, .header .extra {
+  line-height: 70px;
+  margin: 0;
+}
+.header h1 {
+  float: left;
+}
+.header .extra {
   float: right;
 }
 
-.site .footer .rss img {
-  border: 0;
+/*****************************************************************************/
+/*
+/* Main
+/*
+/*****************************************************************************/
+.main_content {
+  margin: 40px 0;
 }
 
 /*****************************************************************************/
@@ -141,18 +155,35 @@ ul.posts span {
 
 /* standard */
 #post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  border: 1px solid #b9b5b9;
+  background-color: #e7e6e7;
+  padding: 7px 10px;
+  overflow: auto;
+  -webkit-overflow: touch;
+  margin: 20px 0;
+}
+
+#post p img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 #post ul, #post ol {
-  margin-left: 1.35em;
+  margin-left: 3em;
+}
+
+#post ul li, #post ol li {
+  font-size: 90%;
+  line-height: 1.6;
+  color: #666;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 #post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid #b9b5b9;
+  background-color: #e7e6e7;
   padding: 0 .2em;
 }
 

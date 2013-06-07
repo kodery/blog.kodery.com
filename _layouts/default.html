@@ -16,28 +16,37 @@
     <body>
 
         <div class="container">
-          <div class="site">
-            <div class="header">
+
+          <header class="header">
+            <div class="wrapper">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">Home</a>
             </div>
+          </header>
 
+          <div class="site">
+
+            <div class="wrapper">
+              <main class="main_content">
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Kodery<br />
-                  Your snippets: everywhere.
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://kodery.com/">kodery.com</a><br />
-                  <a href="http://docs.kodery.com/">docs.kodery.com</a>
-                </p>
-              </div>
+              </main>
             </div>
+
+            <footer class="footer">
+              <div class="wrapper">
+                <div class="contact">
+                  <p>
+                    Kodery<br />
+                    Your snippets: everywhere.
+                  </p>
+                </div>
+                <div class="contact">
+                  <p>
+                    &nbsp;<br />
+                    <a href="http://docs.kodery.com/">docs.kodery.com</a>
+                  </p>
+                </div>
+              </div>
+            </footer>
           </div>
         </div> <!-- /container -->
 
