@@ -1,6 +1,7 @@
 ---
 published: true
 category: update
+layout: post
 ---
 
 ## Towards Beta
