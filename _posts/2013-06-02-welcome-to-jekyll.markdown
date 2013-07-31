@@ -2,7 +2,7 @@
 layout: post
 title: blog.kodery
 date: {}
-categories: jekyll update
+categories: news
 published: true
 ---
 
