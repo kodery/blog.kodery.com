@@ -2,6 +2,7 @@
 published: true
 category: update
 layout: post
+data: "2013-07-31T19:28:08.856Z"
 ---
 
 With the alpha underway we've started thinking about features we want to see in the beta, including a whole load of front and back end improvements, UI for permissions and the usual bug fixes.
