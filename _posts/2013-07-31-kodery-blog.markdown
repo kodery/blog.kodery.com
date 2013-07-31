@@ -1,7 +1,7 @@
 ---
 layout: post
 title: blog.kodery
-date: {}
+date: "2013-07-31T18:08:07.597Z"
 categories: news
 published: true
 ---
