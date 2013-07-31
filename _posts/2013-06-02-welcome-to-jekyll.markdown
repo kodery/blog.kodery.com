@@ -1,24 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-06-02 20:16:19
+title: blog.kodery
+date: {}
 categories: jekyll update
+published: true
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Hey! Tom here.
 
-Jekyll also offers powerful support for code snippets:
+It's exciting times for Kodery. At 12devs of Summer 2013 we launched the alpha to over 80 designers and developer. It was really tight squeeze – wrote the code to let them in on the train and in Leicester Square before hand! We're hard at work fixing bugs and building features, but we also intend to document, right here, almost everything we think and build to do with Kodery over the next weeks and months until we launch and on into the future...
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Stay tuned!
