@@ -2,7 +2,6 @@
 published: true
 category: talk
 layout: post
-data: "2013-08-27T17:36:08.856Z"
 ---
 
 ## 12 Devs
