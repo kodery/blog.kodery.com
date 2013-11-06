@@ -181,6 +181,10 @@ ul.posts span {
   padding-bottom: 2px;
 }
 
+#post ul li p {
+  margin: 0;
+}
+
 #post code {
   border: 1px solid #b9b5b9;
   background-color: #e7e6e7;
