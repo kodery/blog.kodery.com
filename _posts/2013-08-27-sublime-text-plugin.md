@@ -8,10 +8,9 @@ Since day one, we've known Sublime Text is a crazy-popular editor, it's actually
 
 To use it, all you need to do is:
 
-1. [Tweet Tom](https://twitter.com/phuunet) so we can flag/enable your account 
-2. Clone the [Git repo](https://github.com/phuu/sublime.kodery) into the Sublime packages directory (or download & install manually).
-3. Generate a token in [account.kodery.com](http://account.kodery.com)
-4. Add that token to your Sublime User preferences (Prefrences > Settings - User), like so:
+1. Install the [Kodery package](https://sublime.wbond.net/packages/Kodery) in Sublime Text.
+2. Generate a token in [account.kodery.com](http://account.kodery.com)
+3. Add that token to your Sublime User preferences (Prefrences > Settings - User), like so:
 
         "kodery": {
             "token": "your_64_character_token_will_go_here_without_these_underscores"
@@ -19,8 +18,6 @@ To use it, all you need to do is:
 
 Remember to make sure your prefrences is valid JSON!
 
-We also made a neat little video to show you what the plugin can do.
-
 Enjoy!
 
-[[YO. VIDEO EMBED, TOM!]]
+
