@@ -181,7 +181,7 @@ ul.posts span {
   padding-bottom: 2px;
 }
 
-#post ul li p {
+#post ul li p, #post ol li p {
   margin: 0;
 }
 
