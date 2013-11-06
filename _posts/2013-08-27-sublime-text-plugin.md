@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 The core reason for making Kodery is so we could share a library of code snippets with teams we work with. But everyone has their own way of working, so we needed to make it easy to integrate into any work-flow.
