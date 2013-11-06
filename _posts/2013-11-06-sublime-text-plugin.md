@@ -22,4 +22,4 @@ Remember to make sure your prefrences is valid JSON!
 
 Enjoy!
 
-![](/_posts/kodery-sublime.gif)
+![](http://alpha.kodery.com/images/kodery-sublime.gif)
